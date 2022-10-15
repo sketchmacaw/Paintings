@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "mcwpaintings",
+  "version": "${version}",
+
+  "name": "Macaw's Paintings",
+  "description": "Adds new custom made Paintings!",
+  "authors": [
+    "Sketch Peachy and Sketch Macaw"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/macaws-paintings",
+    "sources": ""
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/mcwpaintings/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kikoz.mcwpaintings.MacawsPaintings"
+    ]
+  },
+  "mixins": [
+    "mcwpaintings.mixins.json"
+  ],
+
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
