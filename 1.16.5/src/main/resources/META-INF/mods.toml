@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+license="All Rights Reserved"
+
+logoFile="paintingslogo.png"
+[[mods]]
+modId="mcwpaintings"
+version="1.0.4"
+displayName="Macaw's Paintings"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-paintings"
+updateJSONURL="https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paintings.json"
+credits=""
+authors="Art made by Peachy, coded by Sketch Macaw"
+description="A collection of 46 custom made paintings"
